@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+.tableThead{
+    font-family: 幼圆;
+    width: 100%;
+    text-align: center !important;
+
+}
+.tableTitle {
+    width: 100%;
+    text-align: right;
+}
+
+.tableTitleField {
+    font-family: 微软雅黑;
+    font-size: 26px;
+    font-weight: bold;
+    border-bottom: 1px dashed #CCCCCC;
+    text-align: center;
+}
+
+
+.tableTop {
+    width: 100%;
+    hight:100%;
+    margin-top: 13px;
+    text-align: center;
+    border:solid 1px #000000;
+}
+
+.tableTop td {
+    background: #ffffff;
+    height: 25px;
+    line-height: 150%;
+    border:solid 1px #000000;
+}
+
+.th1 {
+    background: #42b983 !important;
+}
+
+.th2 {
+    background: aquamarine !important;
+}
+
+.th3 {
+    background: #f3f3f3 !important;
+}
+
+.th1Font {
+    font-family: 黑体;
+    font-size: 16px;
+    color: #ff007c;
+    font-weight: bold;
+}
+
+.th2Font {
+    font-family: 宋体;
+    font-size: 16px;
+}
