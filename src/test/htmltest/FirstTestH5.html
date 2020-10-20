@@ -1,0 +1,77 @@
+<!--
+---- <!DOCTYPE HTML> 声明为 HTML5 文档，doctype 声明是不区分大小写的
+---- <html> 元素是 HTML 页面的根元素
+---- <head> 元素包含了文档的元（meta）数据，如 <meta charset="utf-8"> 定义网页编码格式为 utf-8。
+---- <title> 元素描述了文档的标题
+---- <body> 元素包含了可见的页面内容
+---- <h1> 元素定义一个大标题
+---- <p> 元素定义一个段落
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>第一个html</title>
+</head>
+<body>
+<!--HTML 标题（Heading）是通过<h1> - <h6> 标签来定义的。字体越来越小-->
+<h1>第一个标题</h1>
+<!--水平线-->
+<hr/>
+<h2>第一个标题</h2>
+<h3>第一个标题</h3>
+<h4>第一个标题</h4>
+<h5>第一个标题</h5>
+<!--换行  在开始标签中添加斜杠，比如 <br />，是关闭空元素的正确方法-->
+<br/>
+<p>
+    <!--    单词之间的空格用%20表示-->
+    这是一个电子邮件链接:<a href="mailto:jhyxzsf@163.com?Subject=Hello%20again" target="_top">发送邮件</a><br/>
+    <!--    给标签设置id后可通过 a href="#id"来跳转-->
+    <a href="#p1">跳转到段落p1</a><br/>
+    第一行<br/>
+    换行<br/>
+    换行<br/>
+    换行<br/>
+
+
+    <sub>下标</sub><br/>
+    <sup>上标</sup><br/>
+
+    <small>小写small</small><br/>
+    正常<br/>
+    <big>大写big（Deprecated HTML tag）</big><br/>
+    <b>加粗b</b><br/>
+    <strong>加粗strong（基于内容样式，可以被浏览器识别）</strong><br/>
+    <!--    b是加粗，strong是强调，加强字符的语气是通过将字符变为bold（粗体）来实现的，所以看起来两者一样-->
+    <b><strong>加粗strong加粗b</strong></b><br/>
+    <em>斜体字em（基于内容样式，可以被浏览器识别）</em><br/>
+    <i>斜体字i</i><br/>
+    <ins>插入字是干嘛的？</ins>
+    <br/>
+    <del>删除字是干嘛的？</del>
+</p>
+
+
+<p id="p1">这是一个待跳转的段落，id=p1</p>
+<h6>第一个标题</h6>
+<!--HTML 链接是通过标签 <a> 来定义的。-->
+<!--在某些个别的情况下，比如属性值本身就含有双引号，那么您必须使用单引号，例如：name='John "ShotGun" Nelson'-->
+<!--使用 target 属性，你可以定义被链接的文档在何处显示。_blank表示新窗口打开-->
+<a href="https://www.baidu.com" target="_blank">打开百度</a><br/>
+<!--
+----HTML 图像是通过标签 <img> 来定义的.
+----src  资源路径
+----alt  当图片错误时展示的文字
+-->
+<!--<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1600342834788&di=d295400d788efadb9a24c4959be45600&imgtype=0&src=http%3A%2F%2Fcc.cocimg.com%2Fapi%2Fuploads%2F20151030%2F1446170803952325.jpg"/>-->
+<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1600342834788&di=d295400d788efadb9a24c4959be45600&imgtype=0&src=http%3A%2F%2Fcc.cocimg.com%2Fapi%2Fuploads%2F20151030%2F1446170803952325.jpg"
+     alt="错误"
+     width="333" height="333"/>
+<a href="https://www.baidu.com"><img
+        src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1600342834788&di=d295400d788efadb9a24c4959be45600&imgtype=0&src=http%3A%2F%2Fcc.cocimg.com%2Fapi%2Fuploads%2F20151030%2F1446170803952325.jpg"
+        alt="看看看">
+</a>
+<p>第一个段落</p>
+</body>
+</html>

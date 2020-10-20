@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>link test</title>
+    <!-- 外链表样式link style定义样式文本 href定义资源引用地址 -->
+    <link rel="stylesheet" type="text/css" href="../css/FirstCss.css">
+</head>
+<body>
+<h2 id="h2-3" style="text-align: center">三、链接相关（h2）</h2>
+<p style="text-align: center">文本对齐属性 text-align取代了旧标签 </p>
+<center></center>
+<p id="h2-3-p1">
+    <!--    a 定义链接 ：id定义id； href 定义地址 ；target定义打开方式-->
+    <a id='baidu' href="https://www.baidu.com">跳转到百度（本页打开）</a>
+    <br/><a href="https://www.baidu.com" target="_blank">跳转到百度（新页面打开）</a>
+    <br/><a href="#baidu" target="_blank">指定#的方式进行跳转到相应id的锚点，#后不带id则返回顶端</a>
+    <br/><a
+        href="http://localhost:63343/test01/src/test/htmltest/FirstArrange.html?_ijt=4mltg2q5b5or9nkqqifvgrcfug#baidu"
+        target="_blank">跳转到其他页面</a>
+</p>
+<p>
+    <br/>点击图片进行跳转有边框（border标签不推荐）
+    <a href="https://www.baidu.com" target="_blank"><img
+            border="10"
+            src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1600342834788&di=d295400d788efadb9a24c4959be45600&imgtype=0&src=http%3A%2F%2Fcc.cocimg.com%2Fapi%2Fuploads%2F20151030%2F1446170803952325.jpg"
+            alt="看看看" width="33" height="33"
+    ></a>
+    <br/>点击图片进行跳转无边框（border标签不推荐）
+    <a href="https://www.baidu.com" target="_blank"><img
+            border="0"
+            src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1600342834788&di=d295400d788efadb9a24c4959be45600&imgtype=0&src=http%3A%2F%2Fcc.cocimg.com%2Fapi%2Fuploads%2F20151030%2F1446170803952325.jpg"
+            alt="看看看" width="33" height="33"
+    ></a>
+</p>
+
+</body>
+
+
+</html>
