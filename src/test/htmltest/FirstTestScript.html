@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    <!--    直接输出-->
+    document.write("document.write直接输出")
+</script>
+<p id="demo">button点击触发</p>
+<hr/>
+<script>function myFunction() {
+    document.getElementById("demo").innerHTML = "HELLO JAVASCRIPT";
+}</script>
+<button type="button" onclick="myFunction()">点我变内容</button>
+<noscript>抱歉，您的浏览器不支持 JavaScript</noscript>
+<br/>
+<br/>
+<script>
+    let selfColor = 1;
+
+    function f2() {
+        const x = document.getElementById("demo");
+        if (selfColor === 2) {
+            x.style.color = "#000000";
+            selfColor = 1;
+        } else {
+            x.style.color = "#ff0000";
+            selfColor = 2;
+        }
+    }
+</script>
+<button type="button" onclick="f2()">点我变颜色</button>
+</body>
+</html>

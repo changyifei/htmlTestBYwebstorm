@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form name="submit" action="FirstTestDiv.html" method="get">
+    <label> 姓名<input type="text" name="name"></label>
+    <label>密码<input type="password" name="password"></label>
+    <input type="button" value="这是一个button按钮"><br/>
+    <label>单选按钮<input type="radio" name="radio"></label>
+    <label>多选按钮
+        <input type="checkbox" name="check[]">A
+        <input type="checkbox" name="check[]">B
+        <input type="checkbox" name="check[]" checked="checked">C
+        <input type="checkbox" name="check[]">D
+    </label><br/>
+    <label>你最喜欢的角色
+        <select name="select">
+            <option value="cm">茨木童子</option>
+            <option value="jt">酒吞童子</option>
+            <option value="cj">泷夜叉姬</option>
+            <option value="yzq" selected>烬天玉藻前</option>
+        </select>
+    </label><br/>
+    <label> 个人简历：<br/>
+        <textarea cols="40" rows="10"></textarea>
+    </label><input type="submit" name="submit">
+</form>
+<hr/>
+<form action="MAILTO:someone@example.com" method="post" enctype="text/plain">
+    <fieldset>
+        <legend>个人信息</legend>
+        <label>姓&nbsp;&nbsp;&nbsp;&nbsp;名：<input type="text" size="8" value="请输入姓名"></label><br/>
+        <label>手机号：<input type="text" size="13" value="请输入电话号"></label><br/>
+        <label>邮箱：<input type="text" size="13" name="email" value="someone@example.com"></label><br/>
+        <input type="submit" value="发送">
+        <input type="reset" value="重置">
+    </fieldset>
+</form>
+
+</body>
+</html>
